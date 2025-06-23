@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 161.27 161.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_128);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5.24px;
+      }
+    </style>
+    <radialGradient id="Degradado_sin_nombre_128" data-name="Degradado sin nombre 128" cx="80.63" cy="80.63" fx="80.63" fy="80.63" r="80.63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7342fe"/>
+      <stop offset=".37" stop-color="#7241fc" stop-opacity=".99"/>
+      <stop offset=".51" stop-color="#6f40f6" stop-opacity=".97"/>
+      <stop offset=".6" stop-color="#6a3dec" stop-opacity=".92"/>
+      <stop offset=".68" stop-color="#6339de" stop-opacity=".85"/>
+      <stop offset=".75" stop-color="#5934cc" stop-opacity=".77"/>
+      <stop offset=".81" stop-color="#4e2eb5" stop-opacity=".66"/>
+      <stop offset=".86" stop-color="#40279a" stop-opacity=".53"/>
+      <stop offset=".91" stop-color="#301f7a" stop-opacity=".38"/>
+      <stop offset=".95" stop-color="#1d1556" stop-opacity=".21"/>
+      <stop offset=".99" stop-color="#0a0b2f" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#070a29" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Capa_3" data-name="Capa 3">
+    <circle class="cls-1" cx="80.63" cy="80.63" r="80.63"/>
+    <path class="cls-2" d="M48.57,50.23h64.13c4.41,0,8.02,3.61,8.02,8.02v48.1c0,4.41-3.61,8.02-8.02,8.02H48.57c-4.41,0-8.02-3.61-8.02-8.02v-48.1c0-4.41,3.61-8.02,8.02-8.02Z"/>
+    <polyline class="cls-2" points="120.72 58.25 80.63 86.31 40.55 58.25"/>
+  </g>
+</svg>

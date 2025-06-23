@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "BilboSKP",
+        "img": "img/project1.jpg",
+        "description": "Proyecto grupal realizado durante mis estudios, consiste en un sitio web con un juego online para un negocio que gestiona salas de escape.",
+        "url": "https://github.com/Riv0J/java_web_BilboSKP",
+        "year": 2022,
+        "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 2,
+        "title": "Project Two",
+        "img": "img/project2.jpg",
+        "description": "Description for project two.",
+        "url": "http://example.com/project2",
+        "year": 2022,
+       "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 3,
+        "title": "Project Three",
+        "img": "img/project3.jpg",
+        "description": "Description for project three.",
+        "url": "http://example.com/project3",
+        "year": 2022,
+        "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 4,
+        "title": "Innova San Luis",
+        "img": "img/project4.jpg",
+        "description": "Proyecto realizado en para el centro de estudios San Luis el cual consiste en un repositorio de proyectos.",
+        "url": "http://example.com/project4",
+        "year": 2023,
+        "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 5,
+        "title": "Project Five",
+        "img": "img/project5.jpg",
+        "description": "Description for project five.",
+        "url": "http://example.com/project5",
+        "year": 2023,
+        "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 6,
+        "title": "Project Six",
+        "img": "img/project6.jpg",
+        "description": "Description for project six.",
+        "url": "http://example.com/project6",
+        "year": 2023,
+        "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 7,
+        "title": "Project Seven",
+        "img": "img/project7.jpg",
+        "description": "Description for project seven.",
+        "url": "http://example.com/project7",
+        "year": 2024,
+        "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 8,
+        "title": "Food Truck Pajaroneta",
+        "img": "img/project8.jpg",
+        "description": "Description for project eight.",
+        "url": "https://github.com/Toke08/pajaroneta",
+        "year": 2024,
+       "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    },
+    {
+        "id": 9,
+        "title": "Getxo Rentals",
+        "img": "img/project9.jpg",
+        "description": "Description for project nine.",
+        "url": "https://getxorentals.com/",
+        "year": 2024,
+        "language": ["img/icon/javac.svg", "img/icon/javc.svg", "img/icon/htmlc.svg", "img/icon/cssc.svg"]
+    }
+]

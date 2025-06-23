@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="img/icon/favicon.svg" style="width:5em">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css//timeline/style.css">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- my script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
+    <script defer src="js/dark_mode.js"></script>
+    <script defer src="js/time-line/main.js"></script>
+    <script defer src="js/contact.js"></script>
+
+    <title>Paula Castillo</title>
+</head>
+<body class="animacion-block">
+    <header> 
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <li class="nav-item" style="list-style:none;" id="logo">
+                    <a class="nav-link" href="#intro_container">Paula</a>
+                </li>
+              <a class="navbar-brand" href="#"><img src="" alt=""></a>
+              <button class="navbar-toggler btn custom-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about_me" data-key="About me">About me</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#Journey" data-key="Journey">Journey</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#pro" data-key="Projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#Contact" data-key="Contact">Contact</a>
+                  </li>
+                  </li>
+                  <div class="d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EN</a>
+                        <li class="nav-item">
+                        <li class="nav-item ">
+                            <a class="nav-link px-2" href="#">ES</a>
+                        <li class="nav-item">
+                  </div>
+                </ul>
+              </div>
+              
+            </div>
+            
+        </nav>
+        <div class="svg_wrapper">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path 
+                  d="
+                    M0,40 
+                    Q 180,80 360,40 
+                    T 720,40 
+                    T 1080,40 
+                    T 1440,40 
+                    L1440,0 L0,0 Z
+                  "
+                  fill="#ffffff"
+                  fill-opacity="0.2">
+                </path>
+            </svg>
+        </div>
+    </header>
+    <main>
+      
+        <section id="intro_container" class="fade-in">
+            <div class="img_avatar">
+                <img src="avatar/paula_cas.svg" alt="">
+            </div>
+
+            <div class="div_intro">
+
+                <p>Hi world!</p>
+                <h1> &lt; Web developer &gt;</h1>
+                <p data-key="greetings">I'm Paula, a web developer
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi praesentium quis recusandae modiisi!</p>
+                <button type="button" class="btn custom-btn1" data-bs-toggle="modal" data-bs-target="#cv_pdf" style="z-index: 1055;">Mi cv</button>
+                <div class="div_contacto">
+                    <div class="div_c1">
+                        <img src="img/icon/mobile.svg" alt="number" style="width: 3.5em;">
+                        <p class="mt-2">602 464 637</p>
+                    </div>
+                    <div class="div_c">
+                        <img src="img/icon/email.svg" alt="email" style="width: 3.5em;">
+                        <p class="mt-2">pauct04@gmail.com</p>
+                    </div>
+                    <div class="div_c">
+                        <img src="img/icon/git.svg" alt="github" style="width: 3.5em;">
+                        <p class="mt-2">pauct04</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="cv_pdf" data-bs-backdrop="true" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Mi cv</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="./img/pdf/cv_pau.pdf"
+                        width="100%"
+                        height="700px"
+                        style="border: none;"></iframe>
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+
+        <section class="fade-in" id="language">
+            <h2>&lt;Lenguajes de programación&gt;</h2>
+            <div class="icon_lang">
+                <img src="img/icon/i_css.svg" alt="javascript" style="width:3.5em;">
+                <img src="img/icon/i_html.svg" alt="java" style="width:3.5em;">
+                <img src="img/icon/i_java.svg" alt="css" style="width:3.5em;">
+                <img src="img/icon/i_js_.svg" alt="js" style="width:3.5em;">
+                <img src="img/icon/i_php.svg" alt="php" style="width:3.5em;">
+                <img src="img/icon/phpc.svg" alt="php" style="width:3.5em;">
+            </div>
+            <h3 class="mt-3">&lt;Frameworks&gt;</h3>
+            <div class="icon_frameworks">
+                <img src="img/icon/i_spring.svg" alt="javascript" style="width:3.5em;">
+                <img src="img/icon/i_angular.svg" alt="java" style="width:3.5em;">
+                <img src="img/icon/Laravel.svg.png" alt="css" style="width:3.5em;">
+            </div>
+        </section>
+    
+        <section class="fade-in" id="about_me">
+            <h2 class="text-center">&lt;About me&gt;</h2>
+            <div id="education">
+                <div class="div_education">
+                    <h2 class="mb-3 borde">Education</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, non reiciendis, nobis esse nisi vitae et placeat!</p>
+                    <div>
+                        <div class="div_ed">
+                            <div class="d-flex flex-row">
+                                <div>
+                                    <img src="img/icon/star.svg" alt="" style="width:2.5em;">
+                                </div>
+                                    
+                                <div>
+                                    <h5>Especialización java</h5>
+                                    <p>Centro Ipartek</p>
+                                    <p>Junio 2025</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="div_ed">
+                            <div class="d-flex flex-row">
+                                <div>
+                                    <img src="img/icon/star.svg" alt="" style="width:2.5em;">
+                                </div>
+                                    
+                                <div>
+                                    <h5>Desarrollo de Aplicaciones Web</h5>
+                                    <p>Centro San Luis</p>
+                                    <p>Mayo 2024</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="div_ed">
+                            <div class="d-flex flex-row">
+                                <div>
+                                    <img src="img/icon/star.svg" alt="" style="width:2.5em;">
+                                </div>
+                                    
+                                <div>
+                                    <h5>Curso Angular</h5>
+                                    <p>Centro San Luis</p>
+                                    <p>Febrero 2024</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="div_ed">
+                            <div class="d-flex flex-row">
+                                <div>
+                                    <img src="img/icon/star.svg" alt="" style="width:2.5em;">
+                                </div>
+                                    
+                                <div>
+                                    <h5>Grado Traducción e Interpretación</h5>
+                                    <p>Universidad de Toulon</p>
+                                    <p>Julio 2022</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div_education">
+                    <h2 class="mb-3" >Habilidades</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, non reiciendis, nobis esse nisi vitae et placeat!</p>
+                    <div>
+                        <h5 class="mb-2">Lenguajes de programación</h5>
+                        <div class="mb-2">
+                            <img src="img/icon/javac.svg" alt="" style="width:2.5em;">
+                            <img src="img/icon/javc.svg" alt="" style="width:2.5em;">
+                            <img src="img/icon/cssc.svg" alt="" style="width:2.5em;">
+                            <img src="img/icon/htmlc.svg" alt="" style="width:2.5em;">
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="mb-2" >Diseño web</h5>
+                        <div class="mb-2">
+                            <img src="img/icon/figma.svg" alt="" style="width:2.5em;">
+                            <img src="img/icon/figma.svg" alt="" style="width:2.5em;">
+                            <img src="img/icon/figma.svg" alt="" style="width:2.5em;">
+                        </div>
+                    </div>
+                </div>
+    
+                
+            </div>
+            
+        </section>
+
+        <div class="cd-timeline js-cd-timeline" style="margin-top: 5%;" id="Journey">
+
+            <h2 class="text-center mb-5" data-key="Journey">&lt;Trayectoria profesional&gt;</h2>
+
+            <div class="container max-width-lg cd-timeline__container m-9">
+              <div class="cd-timeline__block">
+                    <div class="cd-timeline__img cd-timeline__img--picture">
+                        <img src="img/icon/hat.svg" alt="Picture">
+                    </div> <!-- cd-timeline__img -->
+            
+                    <div class="cd-timeline__content text-component">
+                        <h5>Web developer</h5>
+                        <p>Aston Rentals</p>
+                        <span class="cd-timeline__date">Abril-Octubre 2024</span>
+                        <p>Diseño, desarrollo y matenimiento de hasta cinco sitios web usando wordpress, js y css con especial atención al SEO.</p>
+                    </div> <!-- cd-timeline__content -->
+              </div> <!-- cd-timeline__block -->
+        
+              <div class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--movie">
+                  <img src="img/icon/bag.svg" alt="Movie">
+                </div> <!-- cd-timeline__img -->
+        
+                <div class="cd-timeline__content text-component">
+                  <h5>Desarrollo de Aplicaciones Web</h5>
+                  <span class="cd-timeline__date">Jan 18</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+                  
+                  <div class="flex justify-between items-center">
+                  </div>
+                </div> <!-- cd-timeline__content -->
+              </div> <!-- cd-timeline__block -->
+        
+              <div class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--picture">
+                  <img src="img/icon/bag.svg" alt="Picture">
+                </div> <!-- cd-timeline__img -->
+        
+                <div class="cd-timeline__content text-component">
+                  <h5>Curso Agular</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus c.</p>
+        
+                  <div class="flex justify-between items-center">
+                    <span class="cd-timeline__date">Jan 24</span>
+                  </div>
+                </div> <!-- cd-timeline__content -->
+              </div> <!-- cd-timeline__block -->
+        
+              <div class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--location">
+                  <img src="img/icon/bag.svg" alt="Location">
+                </div> <!-- cd-timeline__img -->
+        
+                <div class="cd-timeline__content text-component">
+                  <h5>Nemosoft</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+        
+                  <div class="flex justify-between items-center">
+                     <span class="cd-timeline__date">Feb 14</span>
+                  </div>
+                </div> <!-- cd-timeline__content -->
+              </div> <!-- cd-timeline__block -->
+            </div>
+
+        </div> <!-- cd-timeline -->
+
+        <div class="d-flex flex-column align-items-center" id="pro">
+            <h2 data-key="Projects" class="mb-3">&lt;Projects&gt;</h2>
+            <p class="text-center" data-key="p-intro">These are the projects that I've been working on using numerous programming languages</p>
+            <div class="m-4 d-flex justify-content-center" id="year-container">
+                <button class="btn custom-btn2" data-year="2022">2022</button>
+                <button class="btn custom-btn2" data-year="2023">2023</button>
+                <button class="btn custom-btn2" data-year="2024">2024</bittom> 
+            </div>
+            <div id="project" class="fade-in"></div>
+        </div>
+
+        <section id="Contact" class="fade-in">
+            <div class="contact1">
+                <h2 class="text-center mb-3">&lt;Any questions?&gt;</h2>
+                <p>Let's keep in touch Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ducimus tenetur placeat enim maxime, explicabo doloremque sed quisquam nisi, est ab optio neque quam itaque qui numquam eum, recusandae quos?</p>
+               
+                    <div class="img_contact">
+                        <img src="avatar/paula_1.svg" alt="me" srcset="">
+                    </div>
+              
+            </div>
+
+            <div class="contact2" >
+                <div id="resp_ok" style="display: none;" >
+                    <img src="img/icon/gato_ok.svg"   alt="" style="width:3.5em;">
+                    <p>Tu mensaje se ha enviado correctamente.</p>
+                </div>
+                <div id="resp_error" style="display: none;"> 
+                    <img src="img/icon/gato_err.svg" alt="" style="width:3.5em;">
+                    <p>Hubo un problema al enviar el mensaje. Inténtalo de nuevo más tarde.</p>
+                </div>
+                <h2 class="text-center mb-3" data-key="Contact me" id="conta">&lt;Contact me&gt;</h2>
+                <form action="" method="post">
+                    <fieldset>
+                        <div class="form_part">
+                            <div class="mb-3">
+                                <label for="name" class="form-label mb-1" data-key="Name">Name:</label>
+                                <input type="text" class="form-control rounded-pill" name="name" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="surname" class="form-label" data-key="Surname">Surname:</label>
+                                <input type="text" class="form-control rounded-pill" name="surname" id="surname" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label" data-key="Email">Email:</label>
+                            <input type="email" class="form-control rounded-pill" name="email" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label mb-1" data-key="Message">Message:</label>
+                            <textarea class="form-control rounded mt-2" name="message" id="mesagge" required rows="5" maxlength="200" placeholder="Escribe aquí tu mensaje"></textarea>
+                        </div>
+                        <div style="display: none;">
+                            <input type="checkbox" name="check" id="check">
+                            <p class="mb-0 ms-2">No soy un robot</p>
+                        </div>
+                        <button class="btn custom-btn1" style="margin-top: 3%;" data-key="Send" type="submit">Send</button>
+                    </fieldset>
+                </form>
+
+                
+            </div>
+            
+        </section>
+        
+    </main>
+    <footer class="text-center" class="fade-in">
+        <p>&copy; Paula Castillo</p>
+        <div>
+            <ul class="list-unstyled d-flex justify-content-center">
+                <li class="p-1" style="width: 4em;"> <img src="img/icon/git.svg" alt="github" ></li>
+                <li class="p-1" style="width: 4em;"><img src="img/icon/linke.svg" alt="linkedln" ></li>
+            </ul>
+        </div>
+        <div class="container text-center mb-5">
+            <div class="row">
+              <div class="col">
+                <a data-key="Cookies" href="cookies.html">Cookies</a>
+              </div>
+              <div class="col">
+                <a data-key="Privacy" href="politica.html">Privacy policy</a>
+              </div>
+              <div class="col">
+                <a data-key="Cookies">Contacto</a>
+              </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div  class="position-absolute bottom-0 end-0">
+        <a class="btn_up" href="">UP</a> 
+    </div>
+</body>
+</html>
