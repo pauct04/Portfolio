@@ -3,7 +3,7 @@
 //TODO avatar modo movi
 //TODO modo web
 
-const url = '../json/projects.json';
+const url = './json/projects.json';
 const project_div = document.getElementById('project');
 
 async function callJson() {
