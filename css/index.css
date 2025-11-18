@@ -159,10 +159,6 @@ footer{
 }
 
 
-
-
-
-
 /* RESPONSIVE MODE */
 @media screen and (min-width:360px)  {
   main{
@@ -183,7 +179,19 @@ footer{
   .svg_wrapper{
     display: none;
   }
-   
+  .div_intro{
+    margin-bottom: 20%;
+  }
+  h1, h2, h3{
+    text-align: center;
+  }
+  .img_avatar img{
+    margin-top: 7em;
+  } 
+ button.btn.custom-btn1{
+  display: flex !important;
+  justify-content: center !important;
+  }
     
     /* display: grid;
     grid-template-rows: 1fr 1fr;
@@ -191,8 +199,20 @@ footer{
    
   .div_contacto{
     display: flex;
-    flex-direction:column;
     margin-top: 5%;
+  }
+  .div_c1{
+    padding: 1%;
+    text-align: center;
+    font-size: small;
+    width: 50%;
+  }
+  .div_c{
+    border-left: 2px solid rgb(255, 255, 255);
+    padding:1%;
+    text-align: center;
+    font-size: small;
+    width: 50%;
   }
   
   /* #intro_container > :nth-child(1) {
@@ -236,6 +256,14 @@ footer{
   }
   .img_contact{
     display: none;
+  }
+  #language{
+    color: white !important;
+    border-radius: 2em !important;
+    background: rgba(255, 255, 255, 0.21)!important;
+    backdrop-filter: blur(7.2px)!important;
+    -webkit-backdrop-filter: blur(7.2px)!important;
+    padding: 5%;
   }
   /* footer */
 
@@ -294,11 +322,15 @@ footer{
     display: block;
     margin: 0 auto;
   }
+  .img_avatar img {
+    margin-top: 0;
+  }
+  h1{
+    text-align: left;
+  }
   /* SKILLS */
   #language{
-    text-align: center;
-    padding-bottom: 10%;
-    
+    background: none !important;
   }
   #about_me{
     box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.35);
@@ -355,6 +387,11 @@ footer{
   grid-template-columns: repeat(3, 0.1fr);
   justify-content: center;
  }
+ .icon_lang img:hover, .icon_frameworks img:hover{
+  border: 2px solid #ff15e5!important;
+  box-shadow: 0px 0px 20px #ff15e5;
+  color: #ff15e5 !important;
+ }
  
 
   /* EDUCATION */
@@ -394,6 +431,7 @@ footer{
     display: flex;
     flex-direction: row;
     margin-top: 5%;
+    width: 100%;
   }
   .img_contact{
     width: 45%;
@@ -420,7 +458,7 @@ footer{
 
     padding: 10%;
   }
-}
+
 
 /* darkmode */
-
+}
