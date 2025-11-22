@@ -427,7 +427,7 @@ mark {
 
 .cd-timeline h2 {
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-style: normal;
     /* font-family: var(--font-secondary); 
     font-weight: 700*/

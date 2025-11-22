@@ -168,7 +168,7 @@ footer{
   nav{
     font-size: 1.15em;
     /* background-color: rgba(255, 255, 255, 0.1)!important;
-    backdrop-filter: blur(60px)!important; */
+    backdrop-filter: blur(60px)!important;  */
   }
   #navbarNavDropdown{
     background-color: rgba(255, 255, 255, 0.1)!important;
@@ -181,25 +181,17 @@ footer{
   }
   .div_intro{
     margin-bottom: 20%;
-  }
-  h1, h2, h3{
     text-align: center;
+  }
+  h2, h3{
+    text-align: center;
+    font-size: 1.3em !important;
   }
   .img_avatar img{
     margin-top: 7em;
-  } 
- button.btn.custom-btn1{
-  display: flex !important;
-  justify-content: center !important;
   }
-    
-    /* display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;  */
-   
   .div_contacto{
-    display: flex;
-    margin-top: 5%;
+    display: none;
   }
   .div_c1{
     padding: 1%;
@@ -222,6 +214,7 @@ footer{
   #intro_container > :nth-child(2) {
     grid-row: 1; 3.0/* Segundo hijo va en la primera fila 
   } */
+
   #about_me{
     box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.35);
     border: 2px solid rgba(255, 255, 255, 0.18);
@@ -237,17 +230,14 @@ footer{
     flex-direction: column;
     justify-content: center;
   }
-  
   label{
     color:var(--text-color) !important;
   }
-
   .card{
     border-radius: 2em !important;
     box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.35)!important;
     border: 2px solid rgba(255, 255, 255, 0.18)!important;
     background: rgba(255, 255, 255, 0.21)!important;
-
     backdrop-filter: blur(7.2px)!important;
     -webkit-backdrop-filter: blur(7.2px)!important;
   }
@@ -257,14 +247,29 @@ footer{
   .img_contact{
     display: none;
   }
+  /* ICON BOX */
   #language{
     color: white !important;
     border-radius: 2em !important;
+    box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.35);
     background: rgba(255, 255, 255, 0.21)!important;
     backdrop-filter: blur(7.2px)!important;
-    -webkit-backdrop-filter: blur(7.2px)!important;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15%;
+    padding-bottom:15%; 
   }
+  .icon_lang, .icon_frameworks{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(80px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    gap:10px;
+  }
+  .icon_frameworks img, .icon_lang img{
+    width: 55% !important;
+  }
+
   /* footer */
 
 }
@@ -272,7 +277,6 @@ footer{
 
 /*WEB MODE */
 @media screen and (min-width:768px)  {
-
   main{
     margin-left: 0%;
     margin-right:0% ;
@@ -310,12 +314,10 @@ footer{
     align-items: center; 
     gap: 5em; 
     padding-top: 12%;
-
     padding-left: 10%;
     padding-right: 10%;
     /* background-image: url('../img/bg/lp2.png');
     background-size: cover; */
-   
   }
   .img_avatar{
     width: 80%;
@@ -331,6 +333,7 @@ footer{
   /* SKILLS */
   #language{
     background: none !important;
+    width: 70%;
   }
   #about_me{
     box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.35);
@@ -375,24 +378,26 @@ footer{
     gap: 5em;
   }
   
- .icon_lang{
+ .icon_lang, .icon_frameworks{
   margin-top: 3%;
   display: grid;
-  grid-template-columns: repeat(6, 0.1fr);
+  grid-template-columns: repeat(5, auto);
   justify-content: center;
+  justify-items: center;
  }
  .icon_frameworks{
-  margin-top: 3%;
+  margin-top: 3% auto;
   display: grid;
-  grid-template-columns: repeat(3, 0.1fr);
+  grid-template-columns: repeat(3, auto);
+  justify-items: center;
   justify-content: center;
  }
- .icon_lang img:hover, .icon_frameworks img:hover{
-  border: 2px solid #ff15e5!important;
-  box-shadow: 0px 0px 20px #ff15e5;
-  color: #ff15e5 !important;
+ .icon_lang img{
+  width: 30% !important;
+  }
+ .icon_frameworks img{
+  width: 18% !important;
  }
- 
 
   /* EDUCATION */
   #education{
