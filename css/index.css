@@ -158,6 +158,12 @@ footer{
   width: 80%;
 }
 
+/* MODAL CONTACTO */
+#contacto .modal-content{
+  background: rgba(255, 255, 255, 0.21)!important;
+  backdrop-filter: blur(7.2px)!important;
+  -webkit-backdrop-filter: blur(7.2px)!important;
+}
 
 /* RESPONSIVE MODE */
 @media screen and (min-width:360px)  {
@@ -167,8 +173,8 @@ footer{
   }
   nav{
     font-size: 1.15em;
-    /* background-color: rgba(255, 255, 255, 0.1)!important;
-    backdrop-filter: blur(60px)!important;  */
+    background-color: rgba(255, 255, 255, 0.1)!important;
+    backdrop-filter: blur(60px)!important; 
   }
   #navbarNavDropdown{
     background-color: rgba(255, 255, 255, 0.1)!important;
@@ -193,20 +199,14 @@ footer{
   .div_contacto{
     display: none;
   }
-  .div_c1{
-    padding: 1%;
-    text-align: center;
-    font-size: small;
-    width: 50%;
+  #intro_container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-areas: 
+      "intro"
+      "img"; 
   }
-  .div_c{
-    border-left: 2px solid rgb(255, 255, 255);
-    padding:1%;
-    text-align: center;
-    font-size: small;
-    width: 50%;
-  }
-  
+
   /* #intro_container > :nth-child(1) {
     grid-row: 2; /* Primer hijo va en la segunda fila 
   }
@@ -308,16 +308,25 @@ footer{
   } */
   
   /* INTRO */
-  #intro_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center; 
-    gap: 5em; 
-    padding-top: 12%;
-    padding-left: 10%;
-    padding-right: 10%;
-    /* background-image: url('../img/bg/lp2.png');
-    background-size: cover; */
+ #intro_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:"img intro";
+  gap: 5em; 
+  padding-top: 12%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+  .img_avatar {
+    grid-area: img;
+  }
+  .div_intro {
+    grid-area: intro;
+  }
+
+  .div_intro{
+    text-align: left;
   }
   .img_avatar{
     width: 80%;
@@ -327,13 +336,13 @@ footer{
   .img_avatar img {
     margin-top: 0;
   }
-  h1{
-    text-align: left;
-  }
   /* SKILLS */
   #language{
     background: none !important;
-    width: 70%;
+    box-shadow: none;
+    backdrop-filter: none !important;
+    width: 75%;
+    margin: 0 auto;
   }
   #about_me{
     box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.35);
@@ -358,7 +367,6 @@ footer{
     background-image: url("../img/projects/laptop.svg");
     background-size: 90%;
     background-repeat: no-repeat;
-
   }
   .div_c1{
     padding-right: 3%;
@@ -459,8 +467,7 @@ footer{
     grid-gap: 10px;
   }
 
-  #language, #pro, #Contact{
-
+   #pro, #Contact{
     padding: 10%;
   }
 

@@ -103,7 +103,7 @@
                 <p class="mt-2">pauct04</p>
             </div>
             </div>
-              <button type="button" class="btn custom-btn1" data-bs-toggle="modal" data-bs-target="#cv_pdf" style="z-index: 1055;">Mi cv</button>
+              <button type="button" class="btn custom-btn1 mt-3" data-bs-toggle="modal" data-bs-target="#cv_pdf" style="z-index: 1055;">Mi cv</button>
             </div>
       </section>
 
@@ -116,7 +116,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <iframe src=""
+                        <iframe src="img/cv/cv.pdf"
                         width="100%"
                         height="700px"
                         style="border: none;"></iframe>
@@ -147,7 +147,7 @@
 
         <div class="cd-timeline js-cd-timeline" style="margin-top: 3%;" id="Journey">
 
-            <h2 class="text-center mb-5" data-key="Journey">&lt;Trayectoria profesional&gt;</h2>
+            <h2 class="text-center mb-4 mt-5" data-key="Journey">&lt;Trayectoria profesional&gt;</h2>
 
             <div class="container max-width-lg cd-timeline__container m-9">
               <div class="cd-timeline__block">
@@ -218,11 +218,9 @@
                 <button class="btn custom-btn2" data-year="2024">2024</bittom> 
             </div>
             <div id="project" class="fade-in"></div>
-        </div>
-
-        
-        
+        </div>  
     </main>
+
     <footer class="text-center" class="fade-in">
         <p>&copy; Paula Castillo</p>
         <div>
@@ -234,18 +232,49 @@
         <div class="container text-center mb-5">
             <div class="row">
               <div class="col">
-                <a data-key="Cookies" href="cookies.html">Cookies</a>
-              </div>
-              <div class="col">
                 <a data-key="Privacy" href="politica.html">Privacy policy</a>
               </div>
               <div class="col">
-                <a data-key="Cookies">Contacto</a>
+                <!-- <a data-key="Cookies">Contacto</a> -->
+                  <button type="button" class="" data-bs-toggle="modal" data-bs-target="#contacto" style="z-index: 1055;">Contacto</button>
               </div>
+              
             </div>
         </div>
         
     </footer>
+    <div class="modal fade" id="contacto" data-bs-backdrop="true" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable text-black">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 " id="staticBackdropLabel">Contact me</h1>
+                        <img src="img/icon/gato_ok.svg" alt="" style="width:50px;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="name" class="form-label">Nombre y apellido:</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                            <label for="text" class="form-label">Mensaje:</label>
+                            <input type="" class="form-control" id="message">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
     <!-- <div  class="bottom-0 end-0">
         <a class="btn_up" href="">UP</a> 
     </div> -->
